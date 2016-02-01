@@ -1,10 +1,10 @@
 <?php
 return array(
     'DB_TYPE'=>'mysql', // 数据库类型
-    'DB_HOST'=>'211.149.187.82', // 服务器地址
-    'DB_NAME'=>'achao',          // 数据库名
-    'DB_USER'=>'achao',      // 用户名
-    'DB_PWD' =>'dAV94EDAGs4K',          // 密码
+    'DB_HOST'=>'127.0.0.1', // 服务器地址
+    'DB_NAME'=>'taobao',          // 数据库名
+    'DB_USER'=>'root',      // 用户名
+    'DB_PWD' =>'root',          // 密码
     'DB_PORT'=>'3306',        // 端口
     'DB_PREFIX'=>'taobao_',    // 数据库表前缀
     'DATA_CACHE_TIME'=>  86400,      // 数据缓存有效期 0表示永久缓存

@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : 本地
-Source Server Version : 50540
-Source Host           : localhost:3306
-Source Database       : taobao
+Source Server         : 我的数据库
+Source Server Version : 50528
+Source Host           : 211.149.187.82:3306
+Source Database       : achao
 
 Target Server Type    : MYSQL
-Target Server Version : 50540
+Target Server Version : 50528
 File Encoding         : 65001
 
-Date: 2016-01-12 10:18:03
+Date: 2016-02-01 14:57:52
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -155,11 +155,12 @@ CREATE TABLE `taobao_shop` (
   `status` int(11) DEFAULT NULL,
   `body` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of taobao_shop
 -- ----------------------------
+INSERT INTO `taobao_shop` VALUES ('1', null, null, null, '2', 'https://detail.tmall.com/item.htm?id=41394350835&spm=a219t.7900221.1998910419.112.bC4wB2', null, null, null, null, null);
 
 -- ----------------------------
 -- Table structure for taobao_shopcolumn
@@ -192,7 +193,6 @@ INSERT INTO `taobao_shopcolumn` VALUES ('12', '食品', null, '0', '1');
 INSERT INTO `taobao_shopcolumn` VALUES ('13', '餐洁', null, '0', '1');
 INSERT INTO `taobao_shopcolumn` VALUES ('14', '护肤', null, '0', '1');
 INSERT INTO `taobao_shopcolumn` VALUES ('15', '文体', null, '0', '1');
-INSERT INTO `taobao_shopcolumn` VALUES ('16', '上衣', '', '1', '1');
 
 -- ----------------------------
 -- Table structure for taobao_webset
