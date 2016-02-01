@@ -1,0 +1,159 @@
+[ 2016-01-21T14:58:59+08:00 ] 127.0.0.1 /index.php/Api//get_shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+ERR: 无法加载控制器:Get_shop
+
+[ 2016-01-21T15:01:08+08:00 ] 127.0.0.1 /index.php/Api//get_shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Get_shop
+
+[ 2016-01-21T15:01:13+08:00 ] 127.0.0.1 /index.php/Api/get_shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Get_shop
+
+[ 2016-01-21T15:01:36+08:00 ] 127.0.0.1 /index.php/Api/Index/get_shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: key D:\www\taobao\Application\Api\Controller\CareController.class.php 第 14 行.
+
+[ 2016-01-21T15:02:02+08:00 ] 127.0.0.1 /index.php/Api/Index/get_shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: key D:\www\taobao\Application\Api\Controller\CareController.class.php 第 14 行.
+
+[ 2016-01-21T15:02:36+08:00 ] 127.0.0.1 /index.php/Api/Index/get_shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: key D:\www\taobao\Application\Api\Controller\CareController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `taobao_shop` [ RunTime:0.3894s ]
+NOTIC: [8] Undefined index: where D:\www\taobao\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `taobao_shop`  [ RunTime:0.3720s ]
+
+[ 2016-01-21T15:39:29+08:00 ] 127.0.0.1 /index.php/Api/Index/get_shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: key D:\www\taobao\Application\Api\Controller\CareController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `taobao_shop` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: where D:\www\taobao\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `taobao_shop`  [ RunTime:0.0130s ]
+
+[ 2016-01-21T15:39:54+08:00 ] 127.0.0.1 /index.php/Api/Index/get_shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: key D:\www\taobao\Application\Api\Controller\CareController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `taobao_shop` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: where D:\www\taobao\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `taobao_shop`  [ RunTime:0.0070s ]
+
+[ 2016-01-21T15:49:01+08:00 ] 127.0.0.1 /index.php/Api/Index/get_shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: key D:\www\taobao\Application\Api\Controller\CareController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `taobao_shop` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `taobao_shop` WHERE ( status=0 ) LIMIT 100   [ RunTime:0.0120s ]
+
+[ 2016-01-21T15:49:46+08:00 ] 127.0.0.1 /index.php/Api/Index/get_shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: key D:\www\taobao\Application\Api\Controller\CareController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `taobao_shop` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: where D:\www\taobao\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `taobao_shop` LIMIT 100   [ RunTime:0.0060s ]
+
+[ 2016-01-21T16:50:05+08:00 ] 127.0.0.1 /index.php/Api/Index/get_clumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: key D:\www\taobao\Application\Api\Controller\CareController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `taobao_shopcolumn` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `taobao_shopcolumn`  [ RunTime:0.0110s ]
+
+[ 2016-01-21T16:51:06+08:00 ] 127.0.0.1 /index.php/Api/Index/get_clumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: key D:\www\taobao\Application\Api\Controller\CareController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `taobao_shopcolumn` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `taobao_shopcolumn`  [ RunTime:0.0090s ]
+
+[ 2016-01-21T16:51:19+08:00 ] 127.0.0.1 /index.php/Api/Index/get_clumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: key D:\www\taobao\Application\Api\Controller\CareController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `taobao_shopcolumn` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `taobao_shopcolumn`  [ RunTime:0.0080s ]
+
+[ 2016-01-21T16:51:31+08:00 ] 127.0.0.1 /index.php/Api/Index/get_clumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: key D:\www\taobao\Application\Api\Controller\CareController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `taobao_shopcolumn` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `taobao_shopcolumn`  [ RunTime:0.0060s ]
+
+[ 2016-01-21T16:51:42+08:00 ] 127.0.0.1 /index.php/Api/Index/get_clumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: key D:\www\taobao\Application\Api\Controller\CareController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `taobao_shopcolumn` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `taobao_shopcolumn`  [ RunTime:0.0060s ]
+

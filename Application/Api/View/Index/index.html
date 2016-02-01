@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>商品添加</title>
+<link rel="stylesheet" href="__ADMIN__/css/select2.css" />
+<style>
+.top {
+	margin: 0 auto;	
+	width: 50%;
+	margin-top: 20%;
+	height: 300px
+}
+</style>
+</head>
+<body>
+	<form action="__URL__/fenlei" method="post">
+	<div class="top">
+		<input type="text" name="url"> <select name="col"
+			class="span6">
+			{~$temp=D("shopcolumn")->where(["sid"=>0])->select()}
+			<volist name="temp" id="vo">
+			<option value="{$vo.id}">{$vo.title}</option>
+			</volist>
+		</select> <input type="submit" value="提交">
+	</div>
+</form>
+
+</body>
+<script type="text/javascript">
+	$('select').select2();
+</script>
+<script src="__ADMIN__/js/jquery.min.js"></script>
+<script src="__ADMIN__/js/select2.min.js"></script>
+</html>

@@ -1,0 +1,712 @@
+[ 2016-01-14T10:43:43+08:00 ] 127.0.0.1 /index.php?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-14T10:43:43+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-14T10:43:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `taobao_admin` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `taobao_admin` WHERE `username` = 'admin' AND `userpwd` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-01-14T10:43:48+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-14T10:43:52+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Ad&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Ad' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `taobao_ad` [ RunTime:0.0320s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao_ad` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_ad` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-14T10:43:54+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Article' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `taobao_article` [ RunTime:0.0540s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_article` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-01-14T10:43:55+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Articlecolumn&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Articlecolumn' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `taobao_articlecolumn` [ RunTime:0.0350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao_articlecolumn` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `taobao_articlecolumn` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-14T10:43:56+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Menu&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` ORDER BY sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-14T10:43:57+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Shopcolumn&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Shopcolumn' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `taobao_shopcolumn` [ RunTime:0.2020s ]
+SQL: SELECT * FROM `taobao_shopcolumn`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-14T10:44:08+08:00 ] 127.0.0.1 /index.php/Admin/Shopcolumn/one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Shopcolumn' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `taobao_shopcolumn` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 72 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 76 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 82 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 90 行.
+ERR: 1146:Table 'taobao.taobao_column' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `taobao_column`
+ERR: 1146:Table 'taobao.taobao_column' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `taobao_column`
+
+[ 2016-01-14T10:44:16+08:00 ] 127.0.0.1 /index.php/Admin/Shopcolumn/one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Shopcolumn' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `taobao_shopcolumn` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 72 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 76 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 82 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 90 行.
+ERR: 1146:Table 'taobao.taobao_column' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `taobao_column`
+ERR: 1146:Table 'taobao.taobao_column' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `taobao_column`
+
+[ 2016-01-14T10:44:57+08:00 ] 127.0.0.1 /index.php/Admin/Shopcolumn/one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Shopcolumn' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `taobao_shopcolumn` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 72 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 76 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 82 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 90 行.
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 100 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 100 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 100 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 100 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 100 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 100 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 100 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 100 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 100 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 100 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 100 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 100 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 100 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 100 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\cfb88226484a33b76764aacafa74c6a9.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-14T10:45:19+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Shop&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Shop' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `taobao_shop` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao_shop` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_shop` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-14T10:45:20+08:00 ] 127.0.0.1 /index.php/Admin/Shop/one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Shop' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `taobao_shop` [ RunTime:0.0166s ]
+NOTIC: [8] Undefined index: id D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\e3d713296c2036b6989e33e15cea3fcd.php 第 72 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\e3d713296c2036b6989e33e15cea3fcd.php 第 76 行.
+SQL: SHOW COLUMNS FROM `taobao_shopcolumn` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\e3d713296c2036b6989e33e15cea3fcd.php 第 92 行.
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 3  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 12  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 14  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_shopcolumn` WHERE `sid` = 15  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\e3d713296c2036b6989e33e15cea3fcd.php 第 101 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\e3d713296c2036b6989e33e15cea3fcd.php 第 108 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\e3d713296c2036b6989e33e15cea3fcd.php 第 114 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\e3d713296c2036b6989e33e15cea3fcd.php 第 120 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\e3d713296c2036b6989e33e15cea3fcd.php 第 135 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\e3d713296c2036b6989e33e15cea3fcd.php 第 141 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\e3d713296c2036b6989e33e15cea3fcd.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-14T10:58:54+08:00 ] 127.0.0.1 /index.php?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-14T11:05:02+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Ad&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Ad' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `taobao_ad` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao_ad` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_ad` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-14T11:05:02+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Article' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `taobao_article` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_article` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-14T11:05:03+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Articlecolumn&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Articlecolumn' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `taobao_articlecolumn` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao_articlecolumn` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_articlecolumn` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-14T11:05:04+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Menu&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` ORDER BY sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-14T11:05:04+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Shopcolumn&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Shopcolumn' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `taobao_shopcolumn` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `taobao_shopcolumn`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-14T11:05:04+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Webset&a=one&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Webset' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `taobao_webset` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `taobao_webset` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-14T11:05:05+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Shop&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Shop' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `taobao_shop` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao_shop` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `taobao_shop` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-14T11:06:35+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Menu&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Menu' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` ORDER BY sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-14T11:06:38+08:00 ] 127.0.0.1 /index.php/Admin/Menu/one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\6c116433a8b9c5c9a8c59860f5c43b71.php 第 72 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\6c116433a8b9c5c9a8c59860f5c43b71.php 第 76 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\6c116433a8b9c5c9a8c59860f5c43b71.php 第 82 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\6c116433a8b9c5c9a8c59860f5c43b71.php 第 88 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\6c116433a8b9c5c9a8c59860f5c43b71.php 第 94 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\6c116433a8b9c5c9a8c59860f5c43b71.php 第 100 行.
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\6c116433a8b9c5c9a8c59860f5c43b71.php 第 108 行.
+SQL: SELECT * FROM `taobao_menu` WHERE `sid` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: one D:\www\taobao\Application\Runtime\Cache\Admin\6c116433a8b9c5c9a8c59860f5c43b71.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-01-14T11:06:57+08:00 ] 127.0.0.1 /index.php/Admin/Menu/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0000s ]
+SQL: INSERT INTO `taobao_menu` (`title`,`controller`,`function`,`parm`,`sort`,`is_show`,`sid`) VALUES ('友情链接','Link','index','','0','1','1') [ RunTime:0.0322s ]
+
+[ 2016-01-14T11:06:57+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Menu&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CareController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\taobao\Application\Admin\Controller\CareController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `taobao_menu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `is_show` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `controller` = 'Menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `taobao_menu` ORDER BY sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-14T11:07:00+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Link&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Link
+

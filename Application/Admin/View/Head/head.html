@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>操作中心</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="__ADMIN__/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="__ADMIN__/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="__ADMIN__/css/fullcalendar.css" />
+    <link rel="stylesheet" href="__ADMIN__/css/matrix-style.css" />
+    <link rel="stylesheet" href="__ADMIN__/css/matrix-media.css" />
+    <link href="__ADMIN__/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="__ADMIN__/css/jquery.gritter.css" />
+    <link rel="stylesheet" href="__ADMIN__/css/uniform.css" />
+    <link rel="stylesheet" href="__ADMIN__/css/select2.css" />
+
+</head>
+<body>
+<!--Header-part-->
+<div id="header">
+    <h1><a href="{:U('Index/index')}">操作中心</a></h1>
+</div>
+<!--close-Header-part-->
+<!--top-Header-menu-->
+<div id="user-nav" class="navbar navbar-inverse">
+    <ul class="nav">
+        <li class=""><a title="" href="#"><i class="icon icon-cog"></i> <span class="text">Settings</span></a></li>
+        <li class=""><a title="" href="{:U('Index/loginout')}"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
+    </ul>
+</div>
+<!--close-top-Header-menu-->
+<!--start-top-serch-->
+<div id="search">
+    <input type="text" placeholder="Search here..."/>
+    <button type="submit" class="tip-bottom" title="Search"><i class="icon-search icon-white"></i></button>
+</div>
+<!--close-top-serch-->
+<!--sidebar-menu-->
+<div id="sidebar">
+    <ul>
+        <volist name="allmean" id="vo">
+            <eq name="vo.sid" value="0">
+                <li <eq name="now.id" value="$vo['id']"> class="submenu active open" <else/>class="submenu" </eq>   > <a href="#"><i class="icon icon-home"></i> <span>{$vo.title}</span></a>
+                    <ul>
+                        <volist name="allmean" id="vo1">
+                            <eq name="vo1.sid" value="$vo['id']">
+                                {~$temp=$vo1["controller"]."/".$vo1["function"]}
+                                <li
+                                    <php>
+                                        if($vo1["controller"]==$controller && $vo1["function"]==$function)
+                                        {
+                                            echo 'class="active"';
+                                        }
+                                    </php>
+                                >
+                                <a href="{:U($temp)}{$vo1.parm}">{$vo1.title}</a></li>
+                           </eq>
+                        </volist>
+                    </ul>
+                </li>
+            </eq>
+        </volist>
+    </ul>
+</div>
+<!--sidebar-menu-->

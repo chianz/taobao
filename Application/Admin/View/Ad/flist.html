@@ -1,0 +1,48 @@
+<include file="Head:head"/>
+<style>
+    .table th, .table td {
+        text-align: center;
+        height:38px;
+    }
+</style>
+<div id="content">
+    <div id="content-header">
+        <div id="breadcrumb">
+            <a href="{:U('Index/index')}" title="返回首页" class="tip-bottom"><i class="icon-home"></i> 首页</a>
+            <a href="{:U('Ad/one',array('id'=>$ad['id']))}">{$ad.title}</a>
+            <a href="#" class="current">{$ad.title}广告管理</a>
+        </div>
+    </div>
+    <div class="widget-content">
+        <div><a href="__URL__/fone?aid={$ad.id}" class="btn btn-success">添加广告</a></div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th><input type="checkbox" class="checkbox"></th>
+                <th>广告标题</th>
+                <th>广告备注</th>
+                <th>排序</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody aria-relevant="all">
+            <volist name="list" id="vo">
+                <tr>
+                    <td><input type="checkbox" name="id[]" value="{$vo.id}"/></td>
+                    <td><eq name="vo.is_show" value="0"><span class="color:red">[隐藏]</span></eq>{$vo.title}</td>
+                    <td>{$vo.des}</td>
+                    <td>{$vo.sort}</td>
+                    <td>
+                    <a href="__URL__/fone?id={$vo.id}&aid={$vo.ad_id}" class="btn btn-primary btn-mini">修改</a>
+                    <a href="javascript:if(confirm('确实要删除该内容吗?'))location='__URL__/fdel?id={$vo.id}&ad_id={$vo.ad_id}'" class="btn btn-danger btn-mini">删除</a>
+                   
+                    </td>
+                </tr>
+            </volist>
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+</div>
+<include file="Head:foot"/>
